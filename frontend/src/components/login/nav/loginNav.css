@@ -1,0 +1,27 @@
+.navbar{
+
+    .logo {
+        img{
+
+        
+        }
+
+    }
+
+    .auth-buttons{
+        display: flex;
+        gap: 20px;
+        
+        .signup-button,
+        .login-button{
+            background-color: transparent;
+            color: #000;
+            font-size: 16px;
+
+            &:hover{
+                color: rgb(48, 161, 196);
+            }
+        }
+        
+    }
+}

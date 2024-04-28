@@ -1,0 +1,140 @@
+.adds {
+
+    width: 100%;
+    padding-top: 80px;
+  }
+  
+  .section {
+    display: flex;
+    justify-content: space-between; /* Evenly distribute items horizontally */
+    align-items: center; /* Align items vertically */
+  }
+  
+  .side {
+    padding: 35px;
+
+    h2{
+
+        font-size: 60px;
+        font-weight: 700;
+    }
+  }
+
+  .bar1 {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    padding: 20px;
+    width: 50vh;
+    height: 70px;
+    margin: 10px 40px -300px 90px;
+    background-color: rgb(230, 225, 225);
+
+    .inbar
+    {
+        position: absolute;
+        right: 0; 
+        padding: 20px;
+        height: 100%;
+        width: 70px;
+        background-color: rgb(29, 122, 91);
+    }
+  }
+
+  .bar2 {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    padding: 20px;
+    width: 196px;
+    height: 70px;
+    margin: 10px 40px -300px 810px;
+    background-color: rgb(18, 32, 92);
+
+    .inbar2 {
+    position: absolute;
+    transform: rotate(-90deg); 
+    color: white; 
+    h2{
+        font-size: 36px;
+        font-weight: 600;
+        padding: 20px;
+        margin-left: 50px;
+    }
+}
+}
+
+.bar3 {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  padding: 20px;
+  width: 196px;
+  height: 70px;
+  margin: 10px 40px -300px 1120px;
+  background-color: rgb(18, 32, 92);
+  
+
+
+
+  .inbar3 {
+  position: absolute;
+  transform: rotate(-90deg); 
+  color: white; 
+  h2{
+      font-size: 36px;
+      font-weight: 600;
+      padding: 20px;
+      margin-left: 90px;
+  }
+}
+
+}
+  
+  .frontimg {
+    flex: 0 0 auto; /* Don't grow, don't shrink, stay at initial size */
+    margin-left: 60px; /* Add margin between images */
+  }
+  
+  .frontimg img 
+  {
+    max-width: 100%; 
+    height: auto; 
+  }
+
+  .lowerNavigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Align items vertically */
+    align-items: center; /* Align items horizontally */
+    text-align: center; /* Center text */
+   .navigation{
+
+    .menu{
+        display: flex;
+        padding: 0px;
+        margin: 0;
+
+        li {
+            list-style-type: none;
+            padding: 20px;
+            
+            /* margin: 10px 0; */
+
+            a{
+                text-decoration: none;
+                color: #000;
+
+                &:hover{
+                  color: rgb(6, 114, 150);
+                }
+
+            }
+        }
+    }
+   }
+}
+
+.lowerNavigation h3 {
+    margin-top: 35px; /* Add some space below the heading */
+}

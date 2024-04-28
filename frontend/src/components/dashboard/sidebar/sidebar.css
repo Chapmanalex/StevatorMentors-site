@@ -1,0 +1,40 @@
+
+.sidebar {
+    /* display: flex; */
+    margin-top: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-right: 1px solid #dee2e6;
+
+    .nav-item{
+        display: flex;
+        gap: 20px;
+        padding: 10px;
+
+        &:hover{
+            background-color: rgb(205, 210, 214);
+            cursor: pointer;
+        }
+        
+
+        img{
+            width: 25px;
+            height: 25px;
+            /* border-radius: 50%; */
+            object-fit: cover;
+        }
+
+        a{
+            text-decoration: none;
+            color: black;
+            font: 1em sans-serif;
+            font-size: 18px;
+
+        }
+    }
+  }

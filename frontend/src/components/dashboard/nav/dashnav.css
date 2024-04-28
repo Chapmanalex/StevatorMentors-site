@@ -1,0 +1,48 @@
+.dashnav {}
+
+.searchbox {
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    input {
+
+        width: 328px;
+        height: 36px;
+        padding: 5px;
+        border-radius: 10px 10px 10px 10px;
+        border: none ;
+        background-color: rgba(181, 206, 164, 0.404);
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    button{
+
+        /* position: absolute ; */
+        border: none;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+        margin-right: 80px;
+        transform: translateX(-150%);
+    }
+
+}
+.icons
+{
+    display: flex;
+    gap: 45px;
+    padding: 5px;
+    padding-right: 20px;
+
+    img{
+        cursor: pointer;
+    }
+    
+}

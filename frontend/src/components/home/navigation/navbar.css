@@ -1,0 +1,55 @@
+
+
+
+.logo img {
+    width: auto;
+    height: 35px;
+    object-fit: cover;
+}
+.nav-menu {
+    margin-top: 20px;
+    list-style-type: none;
+    display: flex;
+    margin-right: 400px; 
+}
+
+.nav-menu li {
+    margin-right: 40px;
+    text-decoration: none;
+    
+    a{
+        text-decoration: none; 
+        color: #000; 
+
+        &:hover{
+            color: rgb(6, 114, 150);
+        }
+      }
+}
+
+.auth-buttons {
+    display: flex;
+    gap: 20px;
+}
+.login-button,
+.signup-button {
+    background-color: transparent;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+    
+    &:hover{
+        color: rgb(6, 114, 150);
+    }
+
+}
+
+.signup-button {
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}

@@ -1,0 +1,65 @@
+.profiles{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+    justify-content: center;
+    align-items: center;
+
+    .card{
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        border: none;
+        height: 300px;
+        width: 350px;
+        background-color: #f0ecec;
+
+        img{
+
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            padding: 20px;
+            object-fit: cover;
+        }
+
+        .activities{
+            display: flex;
+            gap: 20px;
+
+            p{
+                font-size: 16px;
+                font-weight: bold;
+                margin: 2px;
+                background-color: rgb(214, 214, 208);
+                border-radius: 20px;
+                
+            }                
+            #next{
+                    text-align: center;
+                    justify-content: center;
+                    border-radius: 5px;
+                    color: #fff;
+                    background-color: blue;
+                    width: 30px;
+                    
+                }
+        }
+        .socials{
+            display: flex;
+            /* gap: 20px; */
+
+            img{
+                height: 60px;
+                width: 60px;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+        }
+    }
+
+
+}
